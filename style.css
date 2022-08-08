@@ -1,0 +1,67 @@
+/* Copyright (c) 2018-2022 Ivan Teplov */
+html, body {
+	font-size: 12pt;
+	font-family: "roboto", "arial", "sans-serif";
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: -webkit-border-box;
+	box-sizing: border-box;
+}
+
+#calculator {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 295px;
+	height: 370px;
+	background: #e3e3e3;
+	padding: 14px 7px;
+	border-radius: 7px;
+	box-shadow: 0 2px 5px rgba(126, 126, 126, 0.6);
+}
+
+#calculator .input {
+	height: 40px;
+	width: 270px;
+	line-height: 40px;
+	display: block;
+	padding: 0 7px;
+	margin: 0 5px;
+	margin-bottom: 10px;
+	font-size: 15pt;
+	background: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+	overflow: hidden;
+}
+
+#calculator .line {
+	line-height: 50px;
+	margin-bottom: 10px;
+}
+
+#calculator .line .button {
+	display: inline-block;
+	width: 60px;
+	margin: 0 5px;
+	text-align: center;
+	font-size: 14pt;
+	vertical-align: middle;
+	background: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+	user-select: none;
+}
+
+#calculator .line .button:active {
+	background: #ffa81c;
+	color: white;
+}
+
+#calculator .line .b0 {
+	width: 130px;
+}
